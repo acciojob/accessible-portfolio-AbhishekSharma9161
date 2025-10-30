@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Portfolio - Abhishek Sharma</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Heading -->
+  <h1 role="heading">Abhishek Sharma - Web Developer</h1>
+
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Image -->
+  <img role="img" src="profile.jpg" alt="Profile photo of Abhishek Sharma">
+
+  <!-- Description -->
+  <section id="about">
+    <p>
+      Hi! I’m Abhishek Sharma, a passionate web developer skilled in building responsive and accessible web applications using modern technologies like HTML, CSS, JavaScript, and React.
+    </p>
+  </section>
+
+  <!-- Project List -->
+  <section id="projects">
+    <h2 role="heading">Projects</h2>
+    <ul role="list">
+      <li role="listitem">Portfolio Website</li>
+      <li role="listitem">To-Do List App</li>
+      <li role="listitem">E-Commerce Store</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Abhishek Sharma. All rights reserved.</p>
+  </footer>
 
 </body>
-
 </html>
